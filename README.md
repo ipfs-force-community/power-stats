@@ -22,13 +22,13 @@ Run with:
 
 The output look like this:
 ```shell
-Total 603982 on chain
+Total 603988 miners on chain
 It may take a few minutes ...
 
 
-Venus QAP: 1.098 EiB
-Lotus QAP: 8.63 EiB
-Proportion of venus: 11.287
+Venus QAP: 1.07 EiB
+Lotus QAP: 8.606 EiB
+Proportion of Venus: 11.061%
 ```
 
 ### Options
