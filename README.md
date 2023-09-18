@@ -30,6 +30,7 @@ Venus QAP: 1.07 EiB
 Lotus QAP: 8.606 EiB
 Proportion of Venus: 11.061%
 ```
+The results between different machine can be different, because the connection to other sp will be affected by network environment.
 
 ### Options
 
