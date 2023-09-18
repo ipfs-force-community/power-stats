@@ -34,4 +34,4 @@ The results can be different between different machine, because the connection t
 
 ### Options
 
-You can set log level or set concurrency by cli flag. Run `./power-stats --help` for more detail.
+You can set log level or set concurrency by cli flag. Run `./power-stats --help` for more detail. And you will get more detail to set log level to `info` or `debug`. 
