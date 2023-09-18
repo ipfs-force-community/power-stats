@@ -1,4 +1,4 @@
-# EN Venus Market Share Census
+# Venus Market Share Census
 
 ## Objective
 
