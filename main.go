@@ -190,7 +190,7 @@ func static(ctx *cli.Context) error {
 	fmt.Println()
 	fmt.Printf("Venus QAP: %s\n", types.SizeStr(venusQAP))
 	fmt.Printf("Lotus QAP: %s\n", types.SizeStr(lotusQAP))
-	fmt.Printf("Proportion: %.3f%%\n", proportionInPercent)
+	fmt.Printf("Proportion of Venus: %.3f%%\n", proportionInPercent)
 
 	return nil
 }

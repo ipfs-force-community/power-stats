@@ -28,7 +28,7 @@ It may take a few minutes ...
 
 Venus QAP: 1.098 EiB
 Lotus QAP: 8.63 EiB
-Proportion: 11.287
+Proportion of venus: 11.287
 ```
 
 ### Options
