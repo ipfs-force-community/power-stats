@@ -26,8 +26,8 @@ var log = logging.Logger(logSystemName)
 
 func main() {
 	app := &cli.App{
-		Name:                 "static",
-		Usage:                "static for filecoin power info about it's implementation",
+		Name:                 "power-stats",
+		Usage:                "stat for filecoin power info about it's implementation",
 		Suggest:              true,
 		EnableBashCompletion: true,
 		Flags: []cli.Flag{
@@ -91,7 +91,7 @@ func static(ctx *cli.Context) error {
 		return fmt.Errorf("get miners error: %w", err)
 	}
 
-	fmt.Printf("Total %d on chain\n", len(miners))
+	fmt.Printf("Total %d miners on chain\n", len(miners))
 	fmt.Print("It may take a few minutes ...\n\n")
 
 	wg := sync.WaitGroup{}
@@ -190,7 +190,7 @@ func static(ctx *cli.Context) error {
 	fmt.Println()
 	fmt.Printf("Venus QAP: %s\n", types.SizeStr(venusQAP))
 	fmt.Printf("Lotus QAP: %s\n", types.SizeStr(lotusQAP))
-	fmt.Printf("Proportion: %.3f\n", proportionInPercent)
+	fmt.Printf("Proportion: %.3f%%\n", proportionInPercent)
 
 	return nil
 }
